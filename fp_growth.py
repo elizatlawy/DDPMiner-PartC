@@ -5,16 +5,17 @@ A Python implementation of the FP-growth algorithm.
 
 Basic usage of the module is very simple:
 
-    >>> from fp_growth import find_frequent_itemsets
-    >>> find_frequent_itemsets(transactions, minimum_support)
+    from fp_growth import find_frequent_itemsets
+    find_frequent_itemsets(transactions, minimum_support)
 """
 from fptree import FPNode, FPTree
 from collections import defaultdict, namedtuple
-from itertools import imap
+from builtins import map
 
 __author__ = 'Eric Naeseth <enaeseth@gmail.com>'
 __copyright__ = 'Copyright © 2009 Eric Naeseth'
 __license__ = 'MIT License'
+
 
 def find_frequent_itemsets(transactions, minimum_support, include_support=False):
     """
@@ -31,7 +32,7 @@ def find_frequent_itemsets(transactions, minimum_support, include_support=False)
     If `include_support` is true, yield (itemset, support) pairs instead of
     just the itemsets.
     """
-    items = defaultdict(lambda: 0) # mapping from items to their supports
+    items = defaultdict(lambda: 0)  # mapping from items to their supports
     processed_transactions = []
 
     # Load the passed-in transactions and count the support that individual
@@ -45,7 +46,7 @@ def find_frequent_itemsets(transactions, minimum_support, include_support=False)
 
     # Remove infrequent items from the item support dictionary.
     items = dict((item, support) for item, support in items.iteritems()
-        if support >= minimum_support)
+                 if support >= minimum_support)
 
     # Build our FP-tree. Before any transactions can be added to the tree, they
     # must be stripped of infrequent items and their surviving items must be
@@ -56,7 +57,7 @@ def find_frequent_itemsets(transactions, minimum_support, include_support=False)
         return transaction
 
     master = FPTree()
-    for transaction in imap(clean_transaction, processed_transactions):
+    for transaction in map(clean_transaction, processed_transactions):
         master.add(transaction)
 
     def find_with_suffix(tree, suffix):
@@ -70,13 +71,14 @@ def find_frequent_itemsets(transactions, minimum_support, include_support=False)
                 # Build a conditional tree and recursively search for frequent
                 # itemsets within it.
                 cond_tree = conditional_tree_from_paths(tree.prefix_paths(item),
-                    minimum_support)
+                                                        minimum_support)
                 for s in find_with_suffix(cond_tree, found_set):
-                    yield s # pass along the good news to our caller
+                    yield s  # pass along the good news to our caller
 
     # Search for frequent itemsets, and yield the results we find.
     for itemset in find_with_suffix(master, []):
         yield itemset
+
 
 def conditional_tree_from_paths(paths, minimum_support):
     """Builds a conditional FP-tree from the given prefix paths."""
@@ -125,10 +127,11 @@ def conditional_tree_from_paths(paths, minimum_support):
     # Finally, remove the nodes corresponding to the item for which this
     # conditional tree was generated.
     for node in tree.nodes(condition_item):
-        if node.parent is not None: # the node might already be an orphan
+        if node.parent is not None:  # the node might already be an orphan
             node.parent.remove(node)
 
     return tree
+
 
 if __name__ == '__main__':
     from optparse import OptionParser
@@ -136,7 +139,7 @@ if __name__ == '__main__':
 
     p = OptionParser(usage='%prog data_file')
     p.add_option('-s', '--minimum-support', dest='minsup', type='int',
-        help='Minimum itemset support (default: 2)')
+                 help='Minimum itemset support (default: 2)')
     p.set_defaults(minsup=2)
 
     options, args = p.parse_args()
@@ -146,6 +149,7 @@ if __name__ == '__main__':
     f = open(args[0])
     try:
         for itemset in find_frequent_itemsets(csv.reader(f), options.minsup):
-            print '{' + ', '.join(itemset) + '}'
+            print
+            '{{0}}'.format(', '.join(itemset))
     finally:
         f.close()

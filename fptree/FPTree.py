@@ -1,7 +1,7 @@
-from FPNode import FPNode
+from .FPNode import FPNode
 
 from collections import defaultdict, namedtuple
-from itertools import imap
+
 
 class FPTree(object):
     """
@@ -25,11 +25,11 @@ class FPTree(object):
     def root(self):
         """The root node of the tree."""
         return self._root
-    
+
     @property
     def empty(self):
-        #if the root node has no children then the tree is empty
-        return len(self._root._children)==0
+        # if the root node has no children then the tree is empty
+        return len(self._root._children) == 0
 
     def add(self, transaction):
         """
@@ -59,7 +59,7 @@ class FPTree(object):
             point = next_point
             last_point = next_point
 
-        #add the id as the key and the label as the value to a dictionary stored in the node
+        # add the id as the key and the label as the value to a dictionary stored in the node
         last_point.transactions[transaction.id] = transaction.label
 
     def _update_route(self, point):
@@ -69,7 +69,7 @@ class FPTree(object):
         try:
             route = self._routes[point.item]
             # Same as route.tail.neighbor
-            route[1].neighbor = point # route[1] is the tail
+            route[1].neighbor = point  # route[1] is the tail
             # route[0] means route.head
             self._routes[point.item] = self.Route(route[0], point)
         except KeyError:
@@ -82,7 +82,7 @@ class FPTree(object):
         element of the tuple is the item itself, and the second element is a
         generator that will yield the nodes in the tree that belong to the item.
         """
-        for item in self._routes.iterkeys():
+        for item in self._routes.keys():
             yield (item, self.nodes(item))
 
     def nodes(self, item):
@@ -113,15 +113,15 @@ class FPTree(object):
         return (collect_path(node) for node in self.nodes(item))
 
     def inspect(self):
-        print 'Tree:'
+        print('Tree:')
         self.root.inspect(1)
 
-        print
-        print 'Routes:'
-        for item, nodes in self.items():
-            print '  %r' % item
+        print()
+        print('Routes:')
+        for item, nodes in list(self.items()):
+            print('  %r' % item)
             for node in nodes:
-                print '    %r' % node
+                print('    %r' % node)
 
     def _removed(self, node):
         """Called when `node` is removed from the tree; performs cleanup."""
@@ -136,24 +136,24 @@ class FPTree(object):
         else:
             for n in self.nodes(node.item):
                 if n.neighbor is node:
-                    n.neighbor = node.neighbor # skip over
+                    n.neighbor = node.neighbor  # skip over
                     if node is tail:
                         self._routes[node.item] = self.Route(head, n)
                     break
 
-    def conditional_tree_from_paths(self,paths,minimum_support):
+    def conditional_tree_from_paths(self, paths, minimum_support):
         """Builds a conditional FP-tree from the given prefix paths."""
         tree = FPTree()
         condition_item = None
         items = set()
-    
+
         # Import the nodes in the paths into the new tree. Only the counts of the
         # leaf notes matter; the remaining counts will be reconstructed from the
         # leaf counts.
         for path in paths:
             if condition_item is None:
                 condition_item = path[-1].item
-    
+
             point = tree.root
             for node in path:
                 next_point = point.search(node.item)
@@ -165,9 +165,9 @@ class FPTree(object):
                     point.add(next_point)
                     tree._update_route(next_point)
                 point = next_point
-    
+
         assert condition_item is not None
-    
+
         # Calculate the counts of the non-leaf nodes.
         for path in tree.prefix_paths(condition_item):
             count = None
@@ -175,7 +175,7 @@ class FPTree(object):
                 if count is not None:
                     node._count += count
                 count = node.count
-    
+
         # Eliminate the nodes for any items that are no longer frequent.
         for item in items:
             support = sum(n.count for n in tree.nodes(item))
@@ -184,43 +184,40 @@ class FPTree(object):
                 for node in tree.nodes(item):
                     if node.parent is not None:
                         node.parent.remove(node)
-    
+
         # Finally, remove the nodes corresponding to the item for which this
         # conditional tree was generated.
         for node in tree.nodes(condition_item):
-            if node.parent is not None: # the node might already be an orphan
+            if node.parent is not None:  # the node might already be an orphan
                 node.parent.remove(node)
-    
+
         return tree
 
     def __repr__(self):
         printable = []
-        for item, nodeiterator in self.items():
+        for item, nodeiterator in list(self.items()):
             printable.append(item)
             for node in nodeiterator:
                 printable.append(node)
         return "\n".join([repr(s) for s in printable])
 
     def UpdateTree(self, transactions):
-	"""
+        """
 	1. Updates the tree and decrements count in the node
-	2. Updates the transaction IDs	
+	2. Updates the transaction IDs
 	3. Removes node if count is zero
 	"""
-        
-	# Iterate over the transactions
-	for transaction in transactions:
-		next_point = self.root(self) # Start from the root
-		for item in transaction.itemset:
-			curr_point = next_point
-		        next_point = next_point.search(item) 
-			next_point._count -= next_point._count # update the count		       			
 
-			if next_point._count is None: 
-				curr_point.remove(curr_point,next_point) 
-	        
-		# update the transaction ids		
-		next_point.transaction = filter(lambda v: transaction.id not in v.id, next_point.transaction)   	
+        # Iterate over the transactions
+        for transaction in transactions:
+            next_point = self.root(self)  # Start from the root
+            for item in transaction.itemset:
+                curr_point = next_point
+                next_point = next_point.search(item)
+                next_point._count -= next_point._count  # update the count
 
+                if next_point._count is None:
+                    curr_point.remove(curr_point, next_point)
 
-
+                # update the transaction ids
+            next_point.transaction = [v for v in next_point.transaction if transaction.id not in v.id]

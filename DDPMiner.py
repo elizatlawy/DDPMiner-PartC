@@ -1,5 +1,5 @@
 # encoding: utf-8
-from __future__ import division
+
 from fptree import FPNode, FPTree
 from utility_methods import UtilityMethods
 import time
@@ -10,7 +10,7 @@ class DDPMine:
     """
 
     def __init__(self, debug=False):
-        self.fp_tree = FPTree()
+        self.fp_tree = FPTree.FPTree()
         self._maxGain_ = 0.0
         self._bestPattern = None
         self._bestPatterns = []
@@ -32,20 +32,20 @@ class DDPMine:
         while not P.empty :
             size = self._globalTransactionDatabase.size()
 
-            start = time.clock()
+            start = time.perf_counter()
 
             #branch and bound to find best pattern
             self.branchAndBound(P,s,[])
 
-            elapsed = time.clock() - start
+            elapsed = time.perf_counter() - start
 
-            print "Transactions: %d – found best pattern '%s' in %f seconds" % (size, "".join([] if not self._bestPattern else self._bestPattern), elapsed)
+            print(("Transactions: %d – found best pattern '%s' in %f seconds" % (size, "".join([] if not self._bestPattern else self._bestPattern), elapsed)))
 
             if self.debug:
-                print "best pattern:"
-                print self._bestPattern
-                print "Max Gain:"
-                print self._maxGain_
+                print ("best pattern:")
+                print((self._bestPattern))
+                print ("Max Gain:")
+                print((self._maxGain_))
 
             #if no best pattern then break
             if self._bestPattern == None:
@@ -70,7 +70,7 @@ class DDPMine:
 
     def buildTree(self,transactionDatabase):
 
-        master = FPTree()
+        master = FPTree.FPTree()
         for transaction in transactionDatabase:
             #print transaction
             master.add(transaction)
@@ -79,7 +79,7 @@ class DDPMine:
 
     def branchAndBound(self,tree,minimum_support,suffix):
 
-        for item, nodes in tree.items():
+        for item, nodes in list(tree.items()):
 
             support = 0
 

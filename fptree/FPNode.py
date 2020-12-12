@@ -1,5 +1,6 @@
 from collections import defaultdict, namedtuple
-from itertools import imap
+from builtins import map
+
 
 class FPNode(object):
     """A node in an FP tree."""
@@ -45,7 +46,7 @@ class FPNode(object):
                         # Merger case: we already have a child for that item, so
                         # add the sub-child's count to our child's count.
                         self._children[sub_child.item]._count += sub_child.count
-                        sub_child.parent = None # it's an orphan now
+                        sub_child.parent = None  # it's an orphan now
                     except KeyError:
                         # Turns out we don't actually have a child, so just add
                         # the sub-child as our own child.
@@ -92,15 +93,19 @@ class FPNode(object):
 
     def parent():
         doc = "The node's parent."
+
         def fget(self):
             return self._parent
+
         def fset(self, value):
             if value is not None and not isinstance(value, FPNode):
                 raise TypeError("A node must have an FPNode as a parent.")
             if value and value.tree is not self.tree:
                 raise ValueError("Cannot have a parent from another tree.")
             self._parent = value
+
         return locals()
+
     parent = property(**parent())
 
     def neighbor():
@@ -108,24 +113,28 @@ class FPNode(object):
         The node's neighbor; the one with the same value that is "to the right"
         of it in the tree.
         """
+
         def fget(self):
             return self._neighbor
+
         def fset(self, value):
             if value is not None and not isinstance(value, FPNode):
                 raise TypeError("A node must have an FPNode as a neighbor.")
             if value and value.tree is not self.tree:
                 raise ValueError("Cannot have a neighbor from another tree.")
             self._neighbor = value
+
         return locals()
+
     neighbor = property(**neighbor())
 
     @property
     def children(self):
         """The nodes that are children of this node."""
-        return tuple(self._children.itervalues())
+        return tuple(self._children.values())
 
     def inspect(self, depth=0):
-        print ('  ' * depth) + repr(self)
+        print(('  ' * depth) + repr(self))
         for child in self.children:
             child.inspect(depth + 1)
 
@@ -133,6 +142,3 @@ class FPNode(object):
         if self.root:
             return "<%s (root)>" % type(self).__name__
         return "<%s %r (%r) %r>" % (type(self).__name__, self.item, self.count, self.transactions)
-
-
-

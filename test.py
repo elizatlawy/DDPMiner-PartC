@@ -6,8 +6,7 @@ Testing code for the FP-growth implementation.
 
 import unittest
 import fp_growth
-from itertools import izip
-from pprint import pprint
+
 
 class NodeTester(object):
     def __init__(self, case, node):
@@ -25,13 +24,14 @@ class NodeTester(object):
 
     def count(self, count):
         self.case.assertEqual(self.node.count, count,
-            'expected count to be %d; instead it was %d' %
-            (count, self.node.count))
+                              'expected count to be %d; instead it was %d' %
+                              (count, self.node.count))
         return self
 
     def leaf(self):
         self.case.assertTrue(self.node.leaf, 'node must be a leaf')
         return self
+
 
 class TreeTestCase(unittest.TestCase):
     def setUp(self):
@@ -45,10 +45,11 @@ class TreeTestCase(unittest.TestCase):
         actual = list(actual)
         self.assertEqual(len(expected), len(actual))
 
-        for items, path in izip(expected, actual):
+        for items, path in zip(expected, actual):
             self.assertEqual(len(items), len(path))
-            for item, node in izip(items, path):
+            for item, node in zip(items, path):
                 self.assertEqual(item, node.item)
+
 
 class InsertionTests(TreeTestCase):
     def testOneBranch(self):
@@ -69,6 +70,7 @@ class InsertionTests(TreeTestCase):
         b = self.root.child('a', 2).child('b', 2)
         b.child('c', 1).child('d', 1)
         b.child('d', 1).child('e', 1)
+
 
 class RouteTests(TreeTestCase):
     def testRoutes(self):
@@ -135,6 +137,7 @@ class RouteTests(TreeTestCase):
         self.assertTrue(left_c.neighbor is middle_c)
         self.assertTrue(middle_c.neighbor is None)
 
+
 class PrefixPathTests(TreeTestCase):
     def testPaths(self):
         self.tree.add('abc')
@@ -142,6 +145,7 @@ class PrefixPathTests(TreeTestCase):
         self.tree.add('cde')
 
         self.assertPathsEqual(['abc', 'bc', 'c'], self.tree.prefix_paths('c'))
+
 
 class RemovalTests(TreeTestCase):
     def testLeafRemoval(self):
@@ -160,7 +164,7 @@ class RemovalTests(TreeTestCase):
         a.remove(b)
         self.failIf(a.leaf, "the 'a' node should not be a leaf")
         self.assertTrue(c.parent is a,
-            "the 'c' node should now be a child of 'a'")
+                        "the 'c' node should now be a child of 'a'")
 
     def testMerging(self):
         self.tree.add('abc')
@@ -170,6 +174,7 @@ class RemovalTests(TreeTestCase):
         a = b.parent
         a.remove(b)
         self.root.child('a').child('c', 2)
+
 
 class ConditionalTreeTests(TreeTestCase):
     def testGeneration(self):
@@ -205,6 +210,7 @@ class ConditionalTreeTests(TreeTestCase):
         root.child('a', 2).leaf()
         self.assertEqual(1, len(root.node.children))
 
+
 class FrequentSetTests(unittest.TestCase):
     def testDuplicate(self):
         raw = '25,52,274;71;71,274;52;25,52;274,71'
@@ -212,7 +218,8 @@ class FrequentSetTests(unittest.TestCase):
 
         itemsets = list(fp_growth.find_frequent_itemsets(transactions, 2))
         self.assertEqual([['25'], ['52', '25'], ['274'], ['71'], ['52']],
-            itemsets)
+                         itemsets)
+
 
 if __name__ == '__main__':
     unittest.main()

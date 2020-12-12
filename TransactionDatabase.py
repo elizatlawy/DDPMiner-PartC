@@ -1,4 +1,4 @@
-from __future__ import division
+
 from collections import namedtuple, defaultdict
 import csv
 import time
@@ -126,7 +126,7 @@ class TransactionDatabase(object):
         """
         Removes all transactions from the database that are found in the given id list.
         """
-        self.transactions = filter(lambda t: t.id not in transaction_ids, self.transactions)
+        self.transactions = [t for t in self.transactions if t.id not in transaction_ids]
         if self.dbChangedBool == False :
             self.dbChangedBool = True
 
@@ -138,12 +138,12 @@ class TransactionDatabase(object):
         the support count of items.
         """
         # Prune out infrequent items
-        self.itemSupportDict = dict((item, support) for item, support in self.itemSupportDict.iteritems() if support >= min_support)
+        self.itemSupportDict = dict((item, support) for item, support in self.itemSupportDict.items() if support >= min_support)
 
         # sorted in decreasing order of frequency.
         # Function to clean transaction from
         def clean_transaction(transaction):
-            transaction.itemset = filter(lambda v: v in self.itemSupportDict, transaction.itemset)
+            transaction.itemset = [v for v in transaction.itemset if v in self.itemSupportDict]
             transaction.itemset.sort(key=str.upper)
             transaction.itemset.sort(key=lambda v: self.itemSupportDict[v], reverse=True)
             return transaction
