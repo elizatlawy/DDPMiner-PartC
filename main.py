@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # database = TransactionDatabase.loadFromFile(args[0], args[1], int(float(args[2])))
     database = TransactionDatabase.loadFromFile("test.csv", "0", 1)
 
-
+    # comit
     miner = DDPMine(debug=False)
     miner.mine(database, 1)
 
