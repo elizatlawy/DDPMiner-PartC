@@ -8,6 +8,7 @@ Basic usage of the module is very simple:
     from fp_growth import find_frequent_itemsets
     find_frequent_itemsets(transactions, minimum_support)
 """
+from TransactionDatabase import TransactionDatabase
 from fptree import FPNode, FPTree
 from collections import defaultdict, namedtuple
 from builtins import map
@@ -39,29 +40,29 @@ def find_frequent_itemsets(transactions, minimum_support, include_support=False)
     # items have.
     for transaction in transactions:
         processed = []
-        for item in transaction:
+        for item in transaction.itemset:
             items[item] += 1
             processed.append(item)
         processed_transactions.append(processed)
 
     # Remove infrequent items from the item support dictionary.
-    items = dict((item, support) for item, support in items.iteritems()
+    items = dict((item, support) for item, support in items.items()
                  if support >= minimum_support)
 
     # Build our FP-tree. Before any transactions can be added to the tree, they
     # must be stripped of infrequent items and their surviving items must be
     # sorted in decreasing order of frequency.
     def clean_transaction(transaction):
-        transaction = filter(lambda v: v in items, transaction)
+        transaction = [v for v in transaction if v in items]
         transaction.sort(key=lambda v: items[v], reverse=True)
         return transaction
 
-    master = FPTree()
+    master = FPTree.FPTree()
     for transaction in map(clean_transaction, processed_transactions):
         master.add(transaction)
 
     def find_with_suffix(tree, suffix):
-        for item, nodes in tree.items():
+        for item, nodes in list(tree.items()):
             support = sum(n.count for n in nodes)
             if support >= minimum_support and item not in suffix:
                 # New winner!
@@ -142,14 +143,14 @@ if __name__ == '__main__':
                  help='Minimum itemset support (default: 2)')
     p.set_defaults(minsup=2)
 
-    options, args = p.parse_args()
-    if len(args) < 1:
-        p.error('must provide the path to a CSV file to read')
+    # options, args = p.parse_args()
+    # if len(args) < 1:
+    #     p.error('must provide the path to a CSV file to read')
 
-    f = open(args[0])
+    f = open("original.csv")
     try:
-        for itemset in find_frequent_itemsets(csv.reader(f), options.minsup):
-            print
+        for itemset in find_frequent_itemsets(f, 2):
+            print()
             '{{0}}'.format(', '.join(itemset))
     finally:
         f.close()

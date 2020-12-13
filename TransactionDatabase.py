@@ -1,7 +1,7 @@
-
 from collections import namedtuple, defaultdict
 import csv
 import time
+
 
 class Transaction(object):
     def __init__(self, id, itemset, label):
@@ -22,10 +22,12 @@ class Transaction(object):
         # we can be sure that this transaction is covered by the pattern
         return pattern.issubset(self.frozitemset)
 
+
 class TransactionDatabase(object):
     """
     Class for storing transactions.
     """
+
     def __init__(self, supportive_label):
         # List of Transactions
         self.transactions = []
@@ -44,18 +46,18 @@ class TransactionDatabase(object):
         condDatabase = TransactionDatabase(self.labelSupportiveSymbol)
         patternSet = frozenset(pattern)
 
-        for transaction in self.transactions :
+        for transaction in self.transactions:
             if transaction.contains(patternSet):
                 condDatabase.transactions.append(transaction)
 
         return condDatabase
 
-    def transactionListFromPattern(self,pattern) :
+    def transactionListFromPattern(self, pattern):
         transactionList = []
 
         patternSet = frozenset(pattern)
 
-        for transaction in self.transactions :
+        for transaction in self.transactions:
             # See buildConditionalDatabase
             if transaction.contains(patternSet):
                 transactionList.append(transaction.id)
@@ -69,24 +71,25 @@ class TransactionDatabase(object):
         # Magic method for len() support
         return len(self.transactions)
 
+    # TODO: Why do we need this function?!
     def labelSupport(self):
 
-        if self.dbChangedBool :
+        if self.dbChangedBool:
             count = 0
 
-            for transaction in self.transactions :
-                #print "comparing"
-                #print transaction.label
-                #print ":"
-                #print self.labelSupportiveSymbol
-                if(transaction.label == self.labelSupportiveSymbol):
+            for transaction in self.transactions:
+                # print "comparing"
+                # print transaction.label
+                # print ":"
+                # print self.labelSupportiveSymbol
+                if transaction.label == self.labelSupportiveSymbol:
                     count += 1
 
-                labelSupport = count/len(self)
+                labelSupport = count / len(self)
                 self.labelSupportCache = labelSupport
                 self.dbChangedBool = False
             return labelSupport
-        else :
+        else:
             return self.labelSupportCache
 
     def labelAndPatternSupport(self, pattern):
@@ -94,40 +97,40 @@ class TransactionDatabase(object):
 
         patternSet = frozenset(pattern)
 
-        if patternSet == self.lastPatternChecked :
+        if patternSet == self.lastPatternChecked:
 
-            for transaction in self.patternCache :
-                if(transaction.label == self.labelSupportiveSymbol):
+            for transaction in self.patternCache:
+                if (transaction.label == self.labelSupportiveSymbol):
                     count += 1
-        else :
+        else:
 
-            for transaction in self.transactions :
-                if(transaction.label == self.labelSupportiveSymbol and patternSet.issubset(transaction.frozitemset)):
+            for transaction in self.transactions:
+                if (transaction.label == self.labelSupportiveSymbol and patternSet.issubset(transaction.frozitemset)):
                     count += 1
 
-        return count/len(self)
+        return count / len(self)
 
-    def patternSupport(self,pattern):
+    def patternSupport(self, pattern):
         count = 0
 
         patternSet = frozenset(pattern)
         lastPatternCk = []
 
-        for transaction in self.transactions :
-            #if transaction.contains(patternSet):
-            if patternSet.issubset(transaction.frozitemset) :
+        for transaction in self.transactions:
+            # if transaction.contains(patternSet):
+            if patternSet.issubset(transaction.frozitemset):
                 count += 1
                 lastPatternCk.append(transaction)
         self.lastPatternChecked = patternSet
         self.patternCache = lastPatternCk
-        return count/len(self)
+        return count / len(self)
 
     def removeTransactions(self, transaction_ids):
         """
         Removes all transactions from the database that are found in the given id list.
         """
         self.transactions = [t for t in self.transactions if t.id not in transaction_ids]
-        if self.dbChangedBool == False :
+        if self.dbChangedBool == False:
             self.dbChangedBool = True
 
     def cleanAndPrune(self, min_support):
@@ -138,7 +141,8 @@ class TransactionDatabase(object):
         the support count of items.
         """
         # Prune out infrequent items
-        self.itemSupportDict = dict((item, support) for item, support in self.itemSupportDict.items() if support >= min_support)
+        self.itemSupportDict = dict(
+            (item, support) for item, support in self.itemSupportDict.items() if support >= min_support)
 
         # sorted in decreasing order of frequency.
         # Function to clean transaction from
@@ -152,7 +156,7 @@ class TransactionDatabase(object):
             cleaned = clean_transaction(transaction)
             self.transactions[i] = cleaned
 
-        if self.dbChangedBool == False :
+        if self.dbChangedBool == False:
             self.dbChangedBool = True
 
     def add(self, transaction):
@@ -162,11 +166,11 @@ class TransactionDatabase(object):
         self.transactions.append(transaction)
         for item in transaction.itemset:
             self.itemSupportDict[item] += 1
-        if self.dbChangedBool == False :
+        if self.dbChangedBool == False:
             self.dbChangedBool = True
 
     @staticmethod
-    def loadFromFile(filename,supportive_label,min_support):
+    def loadFromFile(filename, supportive_label, min_support):
         """
         Loads transactions from CSV file of form
         a,b,c...,label

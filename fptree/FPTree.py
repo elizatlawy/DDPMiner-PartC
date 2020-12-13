@@ -38,7 +38,7 @@ class FPTree(object):
 
         point = self._root
 
-        last_point = None;
+        last_point = None
 
         for item in transaction.itemset:
             next_point = point.search(item)
