@@ -71,7 +71,6 @@ class TransactionDatabase(object):
         # Magic method for len() support
         return len(self.transactions)
 
-    # TODO: Why do we need this function?!
     def labelSupport(self):
 
         if self.dbChangedBool:
