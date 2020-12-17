@@ -12,7 +12,7 @@
       <paths name="zatlawy@cs302six2-5.cs.bgu.ac.il:22 password">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/pycharm_project_427" local="$PROJECT_DIR$" />
+            <mapping deploy="/users/studs/bsc/2020/zatlawy/PycharmProjects/data-mining-project" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
