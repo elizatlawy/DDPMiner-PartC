@@ -1,3 +1,5 @@
+import random
+
 
 def bio_data_parser():
     outputFile = open("bio_data/Plant_only_cog_words.txt", 'w+')
@@ -14,7 +16,7 @@ def bio_data_parser():
 
 
 def data_to_transaction_file():
-    outputFile = open("bio_data/United_transactions.csv", 'a+')
+    outputFile = open("bio_data/United_unsorted_trans.csv", 'a+')
     Human_cog_words_file = open("bio_data/Plant_only_cog_words.txt")
     last_Bacteria_name = ""
     transaction_list = []  # declare an empty list
@@ -35,7 +37,9 @@ def data_to_transaction_file():
             if not should_write:  # skip the first that is empty transaction
                 should_write = True
             else:
-                transaction_list.sort()
+                #transaction_list.sort()
+                #label = random.randint(0, 1)
+                #transaction_list.append(str(label))
                 transaction_list.append("0")  # the label for Humans
                 new_line = str(transaction_list).translate({ord('['): '', ord(']'): '', ord('\''): '', ord(" "): ""})
                 outputFile.write('%s\n' % new_line)  # save the new transaction into a new line in the file

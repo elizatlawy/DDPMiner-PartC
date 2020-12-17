@@ -95,7 +95,7 @@ class FPTree(object):
         except KeyError:
             return
 
-        while node:
+        while node is not None:
             yield node
             node = node.neighbor
 
@@ -107,7 +107,8 @@ class FPTree(object):
             while node and not node.root:
                 path.append(node)
                 node = node.parent
-            path.reverse()
+            #path.reverse()  # Why??!!!
+            # print("my new path path: ", path)
             return path
 
         return (collect_path(node) for node in self.nodes(item))

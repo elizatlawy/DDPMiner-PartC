@@ -18,6 +18,7 @@ class DDPMine:
         self.debug = debug
 
 
+
     def mine(self, transactionDatabase, support):
         self._globalTransactionDatabase = transactionDatabase
         self.fp_tree = self.buildTree(transactionDatabase)
@@ -46,6 +47,8 @@ class DDPMine:
             print(("Transactions: %d – found best pattern '%s' in %f seconds" % (
                 size, "".join([] if not self._bestPattern else self._bestPattern), elapsed)))
 
+
+
             if self.debug:
                 print("best pattern:")
                 print((self._bestPattern))
@@ -64,7 +67,7 @@ class DDPMine:
             P = self.buildTree(self._globalTransactionDatabase)
 
             # append the new best found pattern
-            self._bestPatterns.append(self._bestPattern)
+            self._bestPatterns.append([self._bestPattern, self._maxGain_])
 
             # reset the best pattern
             self._bestPattern = None
@@ -123,11 +126,15 @@ class DDPMine:
                 infoGainBound = UtilityMethods.InformationGainUpperBound(
                     conditionalDatabase.size() / self._globalTransactionDatabase.size(),
                     self._globalTransactionDatabase.labelSupport())
+                # print("my max gain is:", self._maxGain_)
+                # print("my info gain is:", infoGainBound)
 
                 # if potential for high information gain patterns then recursivly mine them
                 if self._maxGain_ >= infoGainBound:
                     pass
                 else:
                     # Build a conditional tree and recursively mine
-                    conditionalTree = tree.conditional_tree_from_paths(tree.prefix_paths(item), minimum_support)
+                    tpp = tree.prefix_paths(item)
+                    conditionalTree = tree.conditional_tree_from_paths(tpp, minimum_support)
+                    # print("my new cond FP tree is:", conditionalTree._root.children)
                     self.branchAndBound(conditionalTree, minimum_support, found_set)
