@@ -13,16 +13,19 @@ def lines_that_contain(string, fp):
 
 def generate_report():
     """
-    Function that generate detailed report from the DDPminer results in the follownf Form:
-    ++++++++++++++++  Results report for minSup = 5 +++++++++++++++
-    Results for FreqItem: [list of the freqItems]
-    IG of FreqItem:  0.961236604722876
-    Cogs info form COG_INFO_TABLE if exist:
-    Number of appearances in Human Bacteria: int number
-    percentage of appearances in Human Bacteria: %
-    Number of appearances in Plant Bacteria: 2
-    percentage of appearances in Plant Bacteria: %
+    Function that generate detailed report from the DDPMiner results in the following Form:
+    ++++++++++++++++  Results report for minSup = n +++++++++++++++
+    Total Number of itemSets found = n
+    Results for FreqItem:
+    IG of FreqItem:
+    COG_INFO semantic description per each COG in the itemSet if exist:
+    Number of occurrences in Human Bacteria genomes:
+    percentage of genomes that carry it in Human Bacteria genomes: %
+    Number of occurrences in Plant Bacteria genomes:
+    percentage of genomes that carry it in Plant Bacteria genomes: %
+
     """
+
     all_results_file = open("all_results_with_minSup.json", "r")
     all_results_list = json.load(all_results_file)
     Human_total_trans_in_db = 252
@@ -72,7 +75,7 @@ def generate_running_time_graph():
     """
     This function generate Graph of Minimum Support Effect on Running Time
     X axis - Minimum Support for each rum
-    Y axis - The relative Running Time using a CPU counter
+    Y axis - The relative Running Time
     """
     running_times_json = open("running_times.json", "r")
     running_times_list = json.load(running_times_json)
@@ -89,6 +92,11 @@ def generate_running_time_graph():
 
 
 if __name__ == "__main__":
+    """
+    Main loop for running the DDPMiner algorithm with different minSup values
+    Save the results into a JSON file for post processing
+    generate detailed report and a running time graph after all the iterations 
+    """
     data_preprocess.data_to_transaction_file()
     all_results_with_minSup = []
     running_times = []
