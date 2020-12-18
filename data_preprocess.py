@@ -2,9 +2,13 @@ import random
 
 
 def bio_data_parser():
-    outputFile = open("bio_data/Plant_only_cog_words.txt", 'w+')
-    Human_id_file = open('bio_data/Plant_only_bacTaxa.txt')
-    for line in Human_id_file:
+    """
+    uses the cog_words_bac.txt file & a Habitat bacTaxa txt file
+    to output a cog_words txt file for each uid in the bactTaxa file.
+    """
+    outputFile = open("bio_data/Human_only_cog_words.txt", 'w+')
+    Human_uid_file = open('bio_data/Human_only_bacTaxa.txt')
+    for line in Human_uid_file:
         Bacteria_name = line.split(";")[1]
         cog_words = open('bio_data/cog_words_bac.txt')
         for cog_line in cog_words:
@@ -12,16 +16,21 @@ def bio_data_parser():
                 outputFile.write(cog_line)
 
     outputFile.close()
-    Human_id_file.close()
+    Human_uid_file.close()
 
 
 def data_to_transaction_file():
+    """
+    parse the cog_words file into a transactions file.
+    where all cog appears only once in a transaction, each new line is a new transactions
+    the last digit in each lin ia 1 - if it is Human bacteria genome or 0 for plant bacteria genome
+    """
     outputFile = open("bio_data/United_unsorted_trans.csv", 'a+')
-    Human_cog_words_file = open("bio_data/Plant_only_cog_words.txt")
+    cog_words_file = open("bio_data/Plant_only_cog_words.txt")
     last_Bacteria_name = ""
     transaction_list = []  # declare an empty list
     should_write = False
-    for line in Human_cog_words_file:
+    for line in cog_words_file:
         # get the Bacteria name_uid example: topobium_parvulum_DSM_20469_uid59195
         curr_Bacteria_name = line.split("#")[3]
         if last_Bacteria_name == curr_Bacteria_name:
