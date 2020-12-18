@@ -1,0 +1,395 @@
+++++++++++++++++  Results report for minSup = 308 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.03493251596750069
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 292 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.03493251596750069
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 276 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0254']
+IG of FreqItem:  0.045654565489946064
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0254;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein L31;
+Number of occurrences in Human Bacteria genomes: 231
+percentage of genomes that carry it in Human Bacteria genomes: 91.67%
+Number of occurrences in Plant Bacteria genomes: 50
+percentage of genomes that carry it in Plant Bacteria genomes: 69.44%
+
+++++++++++++++++  Results report for minSup = 260 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['1200']
+IG of FreqItem:  0.05556809323093759
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1200;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;RecG-like helicase;
+Number of occurrences in Human Bacteria genomes: 227
+percentage of genomes that carry it in Human Bacteria genomes: 90.08%
+Number of occurrences in Plant Bacteria genomes: 46
+percentage of genomes that carry it in Plant Bacteria genomes: 63.89%
+
+++++++++++++++++  Results report for minSup = 244 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.08127725020709042
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 228 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.08127725020709042
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 212 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.08127725020709042
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 196 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.08127725020709042
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 180 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.08127725020709042
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 164 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['1845']
+IG of FreqItem:  0.10211191069174497
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1845;C;METABOLISM;Energy production and conversion;Heme/copper-type cytochrome/quinol oxidase, subunit 3;
+Number of occurrences in Human Bacteria genomes: 104
+percentage of genomes that carry it in Human Bacteria genomes: 41.27%
+Number of occurrences in Plant Bacteria genomes: 61
+percentage of genomes that carry it in Plant Bacteria genomes: 84.72%
+
+++++++++++++++++  Results report for minSup = 148 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['1622']
+IG of FreqItem:  0.11471577221983265
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1622;C;METABOLISM;Energy production and conversion;Heme/copper-type cytochrome/quinol oxidase, subunit 2;
+Number of occurrences in Human Bacteria genomes: 97
+percentage of genomes that carry it in Human Bacteria genomes: 38.49%
+Number of occurrences in Plant Bacteria genomes: 61
+percentage of genomes that carry it in Plant Bacteria genomes: 84.72%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.19553462145352105
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 132 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['0155']
+IG of FreqItem:  0.11543538959250932
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0155;P;METABOLISM;Inorganic ion transport and metabolism;Sulfite reductase, beta subunit (hemoprotein);
+Number of occurrences in Human Bacteria genomes: 81
+percentage of genomes that carry it in Human Bacteria genomes: 32.14%
+Number of occurrences in Plant Bacteria genomes: 57
+percentage of genomes that carry it in Plant Bacteria genomes: 79.17%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.11468818115536861
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 116 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['0155']
+IG of FreqItem:  0.11543538959250932
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0155;P;METABOLISM;Inorganic ion transport and metabolism;Sulfite reductase, beta subunit (hemoprotein);
+Number of occurrences in Human Bacteria genomes: 81
+percentage of genomes that carry it in Human Bacteria genomes: 32.14%
+Number of occurrences in Plant Bacteria genomes: 57
+percentage of genomes that carry it in Plant Bacteria genomes: 79.17%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.11468818115536861
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 100 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['1764']
+IG of FreqItem:  0.13201936813587167
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1764;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Organic hydroperoxide reductase OsmC/OhrA;
+Number of occurrences in Human Bacteria genomes: 57
+percentage of genomes that carry it in Human Bacteria genomes: 22.62%
+Number of occurrences in Plant Bacteria genomes: 52
+percentage of genomes that carry it in Plant Bacteria genomes: 72.22%
+
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.09339774420980179
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 84 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['1764']
+IG of FreqItem:  0.13201936813587167
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1764;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Organic hydroperoxide reductase OsmC/OhrA;
+Number of occurrences in Human Bacteria genomes: 57
+percentage of genomes that carry it in Human Bacteria genomes: 22.62%
+Number of occurrences in Plant Bacteria genomes: 52
+percentage of genomes that carry it in Plant Bacteria genomes: 72.22%
+
+Results for FreqItem: ['0569']
+IG of FreqItem:  0.09339774420980179
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 68 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['3386']
+IG of FreqItem:  0.17519919499940761
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3386;G;METABOLISM;Carbohydrate transport and metabolism;Sugar lactone lactonase YvrE;
+Number of occurrences in Human Bacteria genomes: 32
+percentage of genomes that carry it in Human Bacteria genomes: 12.7%
+Number of occurrences in Plant Bacteria genomes: 48
+percentage of genomes that carry it in Plant Bacteria genomes: 66.67%
+
+Results for FreqItem: ['1115']
+IG of FreqItem:  0.09815220037618388
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.1426859974011122
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 52 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['3386']
+IG of FreqItem:  0.17519919499940761
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3386;G;METABOLISM;Carbohydrate transport and metabolism;Sugar lactone lactonase YvrE;
+Number of occurrences in Human Bacteria genomes: 32
+percentage of genomes that carry it in Human Bacteria genomes: 12.7%
+Number of occurrences in Plant Bacteria genomes: 48
+percentage of genomes that carry it in Plant Bacteria genomes: 66.67%
+
+Results for FreqItem: ['1115']
+IG of FreqItem:  0.09815220037618388
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.1426859974011122
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 36 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['3146']
+IG of FreqItem:  0.17815267794657952
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3146;R;POORLY CHARACTERIZED;General function prediction only;Predicted N-acyltransferase;
+Number of occurrences in Human Bacteria genomes: 9
+percentage of genomes that carry it in Human Bacteria genomes: 3.57%
+Number of occurrences in Plant Bacteria genomes: 35
+percentage of genomes that carry it in Plant Bacteria genomes: 48.61%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.0630297092058466
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 20 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['3146']
+IG of FreqItem:  0.17815267794657952
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3146;R;POORLY CHARACTERIZED;General function prediction only;Predicted N-acyltransferase;
+Number of occurrences in Human Bacteria genomes: 9
+percentage of genomes that carry it in Human Bacteria genomes: 3.57%
+Number of occurrences in Plant Bacteria genomes: 35
+percentage of genomes that carry it in Plant Bacteria genomes: 48.61%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.0630297092058466
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 4 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['3146']
+IG of FreqItem:  0.17815267794657952
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3146;R;POORLY CHARACTERIZED;General function prediction only;Predicted N-acyltransferase;
+Number of occurrences in Human Bacteria genomes: 9
+percentage of genomes that carry it in Human Bacteria genomes: 3.57%
+Number of occurrences in Plant Bacteria genomes: 35
+percentage of genomes that carry it in Plant Bacteria genomes: 48.61%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.0630297092058466
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+Results for FreqItem: ['0653']
+IG of FreqItem:  0.4464393446710154
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0653;U;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Preprotein translocase subunit SecA (ATPase, RNA helicase);
+Number of occurrences in Human Bacteria genomes: 236
+percentage of genomes that carry it in Human Bacteria genomes: 93.65%
+Number of occurrences in Plant Bacteria genomes: 60
+percentage of genomes that carry it in Plant Bacteria genomes: 83.33%
+
+++++++++++++++++  Results report for minSup = 3 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['3146']
+IG of FreqItem:  0.17815267794657952
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3146;R;POORLY CHARACTERIZED;General function prediction only;Predicted N-acyltransferase;
+Number of occurrences in Human Bacteria genomes: 9
+percentage of genomes that carry it in Human Bacteria genomes: 3.57%
+Number of occurrences in Plant Bacteria genomes: 35
+percentage of genomes that carry it in Plant Bacteria genomes: 48.61%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.0630297092058466
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+Results for FreqItem: ['0177']
+IG of FreqItem:  0.44643934467101565
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0177;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;Endonuclease III;
+Number of occurrences in Human Bacteria genomes: 220
+percentage of genomes that carry it in Human Bacteria genomes: 87.3%
+Number of occurrences in Plant Bacteria genomes: 44
+percentage of genomes that carry it in Plant Bacteria genomes: 61.11%
+
+++++++++++++++++  Results report for minSup = 2 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['3146']
+IG of FreqItem:  0.17815267794657952
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG3146;R;POORLY CHARACTERIZED;General function prediction only;Predicted N-acyltransferase;
+Number of occurrences in Human Bacteria genomes: 9
+percentage of genomes that carry it in Human Bacteria genomes: 3.57%
+Number of occurrences in Plant Bacteria genomes: 35
+percentage of genomes that carry it in Plant Bacteria genomes: 48.61%
+
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.0630297092058466
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+Results for FreqItem: ['0479']
+IG of FreqItem:  0.7219280948873623
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0479;C;METABOLISM;Energy production and conversion;Succinate dehydrogenase/fumarate reductase, Fe-S protein subunit;
+Number of occurrences in Human Bacteria genomes: 166
+percentage of genomes that carry it in Human Bacteria genomes: 65.87%
+Number of occurrences in Plant Bacteria genomes: 56
+percentage of genomes that carry it in Plant Bacteria genomes: 77.78%
+

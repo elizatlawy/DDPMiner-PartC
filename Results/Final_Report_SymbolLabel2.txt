@@ -1,0 +1,709 @@
+++++++++++++++++  Results report for minSup = 308 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0597']
+IG of FreqItem:  0.03493251596750058
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0597;MU;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Intracellular trafficking, secretion, and vesicular transport;Lipoprotein signal peptidase;
+Number of occurrences in Human Bacteria genomes: 250
+percentage of genomes that carry it in Human Bacteria genomes: 99.21%
+Number of occurrences in Plant Bacteria genomes: 64
+percentage of genomes that carry it in Plant Bacteria genomes: 88.89%
+
+++++++++++++++++  Results report for minSup = 292 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0125']
+IG of FreqItem:  0.041043560283461566
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0125;F;METABOLISM;Nucleotide transport and metabolism;Thymidylate kinase;
+Number of occurrences in Human Bacteria genomes: 228
+percentage of genomes that carry it in Human Bacteria genomes: 90.48%
+Number of occurrences in Plant Bacteria genomes: 65
+percentage of genomes that carry it in Plant Bacteria genomes: 90.28%
+
+++++++++++++++++  Results report for minSup = 276 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0758']
+IG of FreqItem:  0.05990079265732351
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0758;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;Predicted Rossmann fold nucleotide-binding protein DprA/Smf involved in DNA uptake;
+Number of occurrences in Human Bacteria genomes: 227
+percentage of genomes that carry it in Human Bacteria genomes: 90.08%
+Number of occurrences in Plant Bacteria genomes: 62
+percentage of genomes that carry it in Plant Bacteria genomes: 86.11%
+
+++++++++++++++++  Results report for minSup = 260 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0220']
+IG of FreqItem:  0.10004517855581296
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0220;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;tRNA G46 methylase TrmB;
+Number of occurrences in Human Bacteria genomes: 205
+percentage of genomes that carry it in Human Bacteria genomes: 81.35%
+Number of occurrences in Plant Bacteria genomes: 56
+percentage of genomes that carry it in Plant Bacteria genomes: 77.78%
+
+++++++++++++++++  Results report for minSup = 244 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '1488']
+IG of FreqItem:  0.10706487328939107
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1488;H;METABOLISM;Coenzyme transport and metabolism;Nicotinic acid phosphoribosyltransferase;
+Number of occurrences in Human Bacteria genomes: 191
+percentage of genomes that carry it in Human Bacteria genomes: 75.79%
+Number of occurrences in Plant Bacteria genomes: 55
+percentage of genomes that carry it in Plant Bacteria genomes: 76.39%
+
+++++++++++++++++  Results report for minSup = 228 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '1555']
+IG of FreqItem:  0.2077829392201922
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1555;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;DNA uptake protein ComE and related DNA-binding proteins;
+Number of occurrences in Human Bacteria genomes: 194
+percentage of genomes that carry it in Human Bacteria genomes: 76.98%
+Number of occurrences in Plant Bacteria genomes: 42
+percentage of genomes that carry it in Plant Bacteria genomes: 58.33%
+
+++++++++++++++++  Results report for minSup = 212 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '1555']
+IG of FreqItem:  0.2077829392201922
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1555;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;DNA uptake protein ComE and related DNA-binding proteins;
+Number of occurrences in Human Bacteria genomes: 194
+percentage of genomes that carry it in Human Bacteria genomes: 76.98%
+Number of occurrences in Plant Bacteria genomes: 42
+percentage of genomes that carry it in Plant Bacteria genomes: 58.33%
+
+++++++++++++++++  Results report for minSup = 196 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '1555']
+IG of FreqItem:  0.2077829392201922
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1555;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;DNA uptake protein ComE and related DNA-binding proteins;
+Number of occurrences in Human Bacteria genomes: 194
+percentage of genomes that carry it in Human Bacteria genomes: 76.98%
+Number of occurrences in Plant Bacteria genomes: 42
+percentage of genomes that carry it in Plant Bacteria genomes: 58.33%
+
+++++++++++++++++  Results report for minSup = 180 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0732']
+IG of FreqItem:  0.3503876562049865
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0732;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Restriction endonuclease S subunit;
+Number of occurrences in Human Bacteria genomes: 160
+percentage of genomes that carry it in Human Bacteria genomes: 63.49%
+Number of occurrences in Plant Bacteria genomes: 27
+percentage of genomes that carry it in Plant Bacteria genomes: 37.5%
+
+++++++++++++++++  Results report for minSup = 164 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0732']
+IG of FreqItem:  0.3503876562049865
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0732;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Restriction endonuclease S subunit;
+Number of occurrences in Human Bacteria genomes: 160
+percentage of genomes that carry it in Human Bacteria genomes: 63.49%
+Number of occurrences in Plant Bacteria genomes: 27
+percentage of genomes that carry it in Plant Bacteria genomes: 37.5%
+
+++++++++++++++++  Results report for minSup = 148 +++++++++++++++
+Total Number of itemSets found = 1
+Results for FreqItem: ['0049', '0732']
+IG of FreqItem:  0.3503876562049865
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0732;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Restriction endonuclease S subunit;
+Number of occurrences in Human Bacteria genomes: 160
+percentage of genomes that carry it in Human Bacteria genomes: 63.49%
+Number of occurrences in Plant Bacteria genomes: 27
+percentage of genomes that carry it in Plant Bacteria genomes: 37.5%
+
+++++++++++++++++  Results report for minSup = 132 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['0049', '2966']
+IG of FreqItem:  0.5073839312283785
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG2966;S;POORLY CHARACTERIZED;Function unknown;Uncharacterized membrane protein YjjP, DUF1212 family;
+Number of occurrences in Human Bacteria genomes: 120
+percentage of genomes that carry it in Human Bacteria genomes: 47.62%
+Number of occurrences in Plant Bacteria genomes: 14
+percentage of genomes that carry it in Plant Bacteria genomes: 19.44%
+
+Results for FreqItem: ['0049', '1195']
+IG of FreqItem:  0.17635364730279923
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1195;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;Recombinational DNA repair ATPase RecF;
+Number of occurrences in Human Bacteria genomes: 207
+percentage of genomes that carry it in Human Bacteria genomes: 82.14%
+Number of occurrences in Plant Bacteria genomes: 50
+percentage of genomes that carry it in Plant Bacteria genomes: 69.44%
+
+++++++++++++++++  Results report for minSup = 116 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.5810824382072475
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '2825']
+IG of FreqItem:  0.2879427778949605
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG2825;MO;CELLULAR PROCESSES AND SIGNALING;Cell wall/membrane/envelope biogenesis;CELLULAR PROCESSES AND SIGNALING;Posttranslational modification, protein turnover, chaperones;Periplasmic chaperone for outer membrane proteins, Skp family;
+Number of occurrences in Human Bacteria genomes: 101
+percentage of genomes that carry it in Human Bacteria genomes: 40.08%
+Number of occurrences in Plant Bacteria genomes: 30
+percentage of genomes that carry it in Plant Bacteria genomes: 41.67%
+
+++++++++++++++++  Results report for minSup = 100 +++++++++++++++
+Total Number of itemSets found = 2
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.5810824382072475
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '0168']
+IG of FreqItem:  0.4471831096316737
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0168;P;METABOLISM;Inorganic ion transport and metabolism;Trk-type K+ transport system, membrane component;
+Number of occurrences in Human Bacteria genomes: 182
+percentage of genomes that carry it in Human Bacteria genomes: 72.22%
+Number of occurrences in Plant Bacteria genomes: 26
+percentage of genomes that carry it in Plant Bacteria genomes: 36.11%
+
+++++++++++++++++  Results report for minSup = 84 +++++++++++++++
+Total Number of itemSets found = 3
+Results for FreqItem: ['0049', '3331']
+IG of FreqItem:  0.5971777024633922
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3331;R;POORLY CHARACTERIZED;General function prediction only;Penicillin-binding protein-related factor A, putative recombinase;
+Number of occurrences in Human Bacteria genomes: 78
+percentage of genomes that carry it in Human Bacteria genomes: 30.95%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '0619']
+IG of FreqItem:  0.5005540686499034
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0619;H;METABOLISM;Coenzyme transport and metabolism;Energy-coupling factor transporter transmembrane protein EcfT;
+Number of occurrences in Human Bacteria genomes: 157
+percentage of genomes that carry it in Human Bacteria genomes: 62.3%
+Number of occurrences in Plant Bacteria genomes: 23
+percentage of genomes that carry it in Plant Bacteria genomes: 31.94%
+
+Results for FreqItem: ['0049', '0569']
+IG of FreqItem:  0.36208972604236034
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0569;P;METABOLISM;Inorganic ion transport and metabolism;Trk K+ transport system, NAD-binding component;
+Number of occurrences in Human Bacteria genomes: 211
+percentage of genomes that carry it in Human Bacteria genomes: 83.73%
+Number of occurrences in Plant Bacteria genomes: 34
+percentage of genomes that carry it in Plant Bacteria genomes: 47.22%
+
+++++++++++++++++  Results report for minSup = 68 +++++++++++++++
+Total Number of itemSets found = 4
+Results for FreqItem: ['0049', '3689']
+IG of FreqItem:  0.6311648578979213
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3689;S;POORLY CHARACTERIZED;Function unknown;Uncharacterized membrane protein YcgQ,  UPF0703/DUF1980 family;
+Number of occurrences in Human Bacteria genomes: 62
+percentage of genomes that carry it in Human Bacteria genomes: 24.6%
+Number of occurrences in Plant Bacteria genomes: 6
+percentage of genomes that carry it in Plant Bacteria genomes: 8.33%
+
+Results for FreqItem: ['0049', '1823']
+IG of FreqItem:  0.6038025537260086
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1823;E;METABOLISM;Amino acid transport and metabolism;L-cystine uptake protein TcyP, sodium:dicarboxylate symporter family;
+Number of occurrences in Human Bacteria genomes: 69
+percentage of genomes that carry it in Human Bacteria genomes: 27.38%
+Number of occurrences in Plant Bacteria genomes: 12
+percentage of genomes that carry it in Plant Bacteria genomes: 16.67%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.5868612853335908
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['0049', '0450']
+IG of FreqItem:  0.17206628040761507
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0450;V;CELLULAR PROCESSES AND SIGNALING;Defense mechanisms;Alkyl hydroperoxide reductase subunit AhpC (peroxiredoxin);
+Number of occurrences in Human Bacteria genomes: 186
+percentage of genomes that carry it in Human Bacteria genomes: 73.81%
+Number of occurrences in Plant Bacteria genomes: 51
+percentage of genomes that carry it in Plant Bacteria genomes: 70.83%
+
+++++++++++++++++  Results report for minSup = 52 +++++++++++++++
+Total Number of itemSets found = 5
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['2171']
+IG of FreqItem:  0.3236391641273765
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG2171;E;METABOLISM;Amino acid transport and metabolism;Tetrahydrodipicolinate N-succinyltransferase;
+Number of occurrences in Human Bacteria genomes: 149
+percentage of genomes that carry it in Human Bacteria genomes: 59.13%
+Number of occurrences in Plant Bacteria genomes: 65
+percentage of genomes that carry it in Plant Bacteria genomes: 90.28%
+
+++++++++++++++++  Results report for minSup = 36 +++++++++++++++
+Total Number of itemSets found = 6
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['0002']
+IG of FreqItem:  0.3338268833725532
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0002;E;METABOLISM;Amino acid transport and metabolism;N-acetyl-gamma-glutamylphosphate reductase;
+Number of occurrences in Human Bacteria genomes: 127
+percentage of genomes that carry it in Human Bacteria genomes: 50.4%
+Number of occurrences in Plant Bacteria genomes: 62
+percentage of genomes that carry it in Plant Bacteria genomes: 86.11%
+
+Results for FreqItem: ['0264']
+IG of FreqItem:  0.05250050109338067
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0264;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Translation elongation factor EF-Ts;
+Number of occurrences in Human Bacteria genomes: 252
+percentage of genomes that carry it in Human Bacteria genomes: 100.0%
+Number of occurrences in Plant Bacteria genomes: 71
+percentage of genomes that carry it in Plant Bacteria genomes: 98.61%
+
+++++++++++++++++  Results report for minSup = 20 +++++++++++++++
+Total Number of itemSets found = 7
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['4585']
+IG of FreqItem:  0.3643909812004458
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG4585;T;CELLULAR PROCESSES AND SIGNALING;Signal transduction mechanisms;Signal transduction histidine kinase;
+Number of occurrences in Human Bacteria genomes: 118
+percentage of genomes that carry it in Human Bacteria genomes: 46.83%
+Number of occurrences in Plant Bacteria genomes: 49
+percentage of genomes that carry it in Plant Bacteria genomes: 68.06%
+
+Results for FreqItem: ['0049', '0698']
+IG of FreqItem:  0.7157498331438847
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0698;G;METABOLISM;Carbohydrate transport and metabolism;Ribose 5-phosphate isomerase RpiB;
+Number of occurrences in Human Bacteria genomes: 155
+percentage of genomes that carry it in Human Bacteria genomes: 61.51%
+Number of occurrences in Plant Bacteria genomes: 19
+percentage of genomes that carry it in Plant Bacteria genomes: 26.39%
+
+Results for FreqItem: ['0468']
+IG of FreqItem:  0.3088282296447096
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0468;L;INFORMATION STORAGE AND PROCESSING;Replication, recombination and repair;RecA/RadA recombinase;
+Number of occurrences in Human Bacteria genomes: 241
+percentage of genomes that carry it in Human Bacteria genomes: 95.63%
+Number of occurrences in Plant Bacteria genomes: 59
+percentage of genomes that carry it in Plant Bacteria genomes: 81.94%
+
+++++++++++++++++  Results report for minSup = 4 +++++++++++++++
+Total Number of itemSets found = 8
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['4585']
+IG of FreqItem:  0.3643909812004458
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG4585;T;CELLULAR PROCESSES AND SIGNALING;Signal transduction mechanisms;Signal transduction histidine kinase;
+Number of occurrences in Human Bacteria genomes: 118
+percentage of genomes that carry it in Human Bacteria genomes: 46.83%
+Number of occurrences in Plant Bacteria genomes: 49
+percentage of genomes that carry it in Plant Bacteria genomes: 68.06%
+
+Results for FreqItem: ['0049', '0274']
+IG of FreqItem:  0.7157498331438847
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0274;F;METABOLISM;Nucleotide transport and metabolism;Deoxyribose-phosphate aldolase;
+Number of occurrences in Human Bacteria genomes: 152
+percentage of genomes that carry it in Human Bacteria genomes: 60.32%
+Number of occurrences in Plant Bacteria genomes: 29
+percentage of genomes that carry it in Plant Bacteria genomes: 40.28%
+
+Results for FreqItem: ['0049', '1006']
+IG of FreqItem:  0.8034282332952798
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1006;P;METABOLISM;Inorganic ion transport and metabolism;Multisubunit Na+/H+ antiporter, MnhC subunit;
+Number of occurrences in Human Bacteria genomes: 50
+percentage of genomes that carry it in Human Bacteria genomes: 19.84%
+Number of occurrences in Plant Bacteria genomes: 23
+percentage of genomes that carry it in Plant Bacteria genomes: 31.94%
+
+Results for FreqItem: ['0525']
+IG of FreqItem:  0.4584538292330595
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0525;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Valyl-tRNA synthetase;
+Number of occurrences in Human Bacteria genomes: 234
+percentage of genomes that carry it in Human Bacteria genomes: 92.86%
+Number of occurrences in Plant Bacteria genomes: 69
+percentage of genomes that carry it in Plant Bacteria genomes: 95.83%
+
+++++++++++++++++  Results report for minSup = 3 +++++++++++++++
+Total Number of itemSets found = 9
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['4585']
+IG of FreqItem:  0.3643909812004458
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG4585;T;CELLULAR PROCESSES AND SIGNALING;Signal transduction mechanisms;Signal transduction histidine kinase;
+Number of occurrences in Human Bacteria genomes: 118
+percentage of genomes that carry it in Human Bacteria genomes: 46.83%
+Number of occurrences in Plant Bacteria genomes: 49
+percentage of genomes that carry it in Plant Bacteria genomes: 68.06%
+
+Results for FreqItem: ['0049', '0274']
+IG of FreqItem:  0.7157498331438847
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0274;F;METABOLISM;Nucleotide transport and metabolism;Deoxyribose-phosphate aldolase;
+Number of occurrences in Human Bacteria genomes: 152
+percentage of genomes that carry it in Human Bacteria genomes: 60.32%
+Number of occurrences in Plant Bacteria genomes: 29
+percentage of genomes that carry it in Plant Bacteria genomes: 40.28%
+
+Results for FreqItem: ['0049', '1006']
+IG of FreqItem:  0.8034282332952798
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1006;P;METABOLISM;Inorganic ion transport and metabolism;Multisubunit Na+/H+ antiporter, MnhC subunit;
+Number of occurrences in Human Bacteria genomes: 50
+percentage of genomes that carry it in Human Bacteria genomes: 19.84%
+Number of occurrences in Plant Bacteria genomes: 23
+percentage of genomes that carry it in Plant Bacteria genomes: 31.94%
+
+Results for FreqItem: ['0525']
+IG of FreqItem:  0.4584538292330595
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0525;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Valyl-tRNA synthetase;
+Number of occurrences in Human Bacteria genomes: 234
+percentage of genomes that carry it in Human Bacteria genomes: 92.86%
+Number of occurrences in Plant Bacteria genomes: 69
+percentage of genomes that carry it in Plant Bacteria genomes: 95.83%
+
+Results for FreqItem: ['0264']
+IG of FreqItem:  0.8112781244591328
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0264;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Translation elongation factor EF-Ts;
+Number of occurrences in Human Bacteria genomes: 252
+percentage of genomes that carry it in Human Bacteria genomes: 100.0%
+Number of occurrences in Plant Bacteria genomes: 71
+percentage of genomes that carry it in Plant Bacteria genomes: 98.61%
+
+++++++++++++++++  Results report for minSup = 2 +++++++++++++++
+Total Number of itemSets found = 9
+Results for FreqItem: ['0049', '4465']
+IG of FreqItem:  0.6682341035127484
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG4465;K;INFORMATION STORAGE AND PROCESSING;Transcription;GTP-sensing pleiotropic transcriptional regulator CodY;
+Number of occurrences in Human Bacteria genomes: 63
+percentage of genomes that carry it in Human Bacteria genomes: 25.0%
+Number of occurrences in Plant Bacteria genomes: 4
+percentage of genomes that carry it in Plant Bacteria genomes: 5.56%
+
+Results for FreqItem: ['0049', '3833']
+IG of FreqItem:  0.6952252521930348
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG3833;G;METABOLISM;Carbohydrate transport and metabolism;ABC-type maltose transport system, permease component;
+Number of occurrences in Human Bacteria genomes: 109
+percentage of genomes that carry it in Human Bacteria genomes: 43.25%
+Number of occurrences in Plant Bacteria genomes: 8
+percentage of genomes that carry it in Plant Bacteria genomes: 11.11%
+
+Results for FreqItem: ['0049', '1847']
+IG of FreqItem:  0.7334916442185917
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1847;R;POORLY CHARACTERIZED;General function prediction only;Predicted RNA-binding protein Jag, conains KH and R3H domains;
+Number of occurrences in Human Bacteria genomes: 122
+percentage of genomes that carry it in Human Bacteria genomes: 48.41%
+Number of occurrences in Plant Bacteria genomes: 9
+percentage of genomes that carry it in Plant Bacteria genomes: 12.5%
+
+Results for FreqItem: ['0049', '1115']
+IG of FreqItem:  0.6323046964671385
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1115;E;METABOLISM;Amino acid transport and metabolism;Na+/alanine symporter;
+Number of occurrences in Human Bacteria genomes: 161
+percentage of genomes that carry it in Human Bacteria genomes: 63.89%
+Number of occurrences in Plant Bacteria genomes: 15
+percentage of genomes that carry it in Plant Bacteria genomes: 20.83%
+
+Results for FreqItem: ['4585']
+IG of FreqItem:  0.3643909812004458
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG4585;T;CELLULAR PROCESSES AND SIGNALING;Signal transduction mechanisms;Signal transduction histidine kinase;
+Number of occurrences in Human Bacteria genomes: 118
+percentage of genomes that carry it in Human Bacteria genomes: 46.83%
+Number of occurrences in Plant Bacteria genomes: 49
+percentage of genomes that carry it in Plant Bacteria genomes: 68.06%
+
+Results for FreqItem: ['0049', '0274']
+IG of FreqItem:  0.7157498331438847
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG0274;F;METABOLISM;Nucleotide transport and metabolism;Deoxyribose-phosphate aldolase;
+Number of occurrences in Human Bacteria genomes: 152
+percentage of genomes that carry it in Human Bacteria genomes: 60.32%
+Number of occurrences in Plant Bacteria genomes: 29
+percentage of genomes that carry it in Plant Bacteria genomes: 40.28%
+
+Results for FreqItem: ['0049', '1006']
+IG of FreqItem:  0.8034282332952798
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0049;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Ribosomal protein S7;
+COG1006;P;METABOLISM;Inorganic ion transport and metabolism;Multisubunit Na+/H+ antiporter, MnhC subunit;
+Number of occurrences in Human Bacteria genomes: 50
+percentage of genomes that carry it in Human Bacteria genomes: 19.84%
+Number of occurrences in Plant Bacteria genomes: 23
+percentage of genomes that carry it in Plant Bacteria genomes: 31.94%
+
+Results for FreqItem: ['0525']
+IG of FreqItem:  0.4584538292330595
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0525;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Valyl-tRNA synthetase;
+Number of occurrences in Human Bacteria genomes: 234
+percentage of genomes that carry it in Human Bacteria genomes: 92.86%
+Number of occurrences in Plant Bacteria genomes: 69
+percentage of genomes that carry it in Plant Bacteria genomes: 95.83%
+
+Results for FreqItem: ['0264']
+IG of FreqItem:  0.8112781244591328
+COG_INFO semantic description per each COG in the itemSet if exist:
+COG0264;J;INFORMATION STORAGE AND PROCESSING;Translation, ribosomal structure and biogenesis;Translation elongation factor EF-Ts;
+Number of occurrences in Human Bacteria genomes: 252
+percentage of genomes that carry it in Human Bacteria genomes: 100.0%
+Number of occurrences in Plant Bacteria genomes: 71
+percentage of genomes that carry it in Plant Bacteria genomes: 98.61%

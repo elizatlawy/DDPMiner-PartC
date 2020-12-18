@@ -27,7 +27,7 @@ def generate_report():
     all_results_list = json.load(all_results_file)
     Human_total_trans_in_db = 252
     Plant_total_trans_in_db = 72
-    outputFile = open("Results/Final_Report_SymbolLabel1.txt", 'a+')
+    outputFile = open("Results/Final_Report.txt", 'a+')
     for results in all_results_list:
         outputFile.write("++++++++++++++++  Results report for minSup = " + str(results[0]) + " +++++++++++++++\n")
         outputFile.write("Total Number of itemSets found = " + str(len(results[1])) + "\n")
